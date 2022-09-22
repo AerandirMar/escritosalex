@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 #contenedor{
     width: 80%;
     height: 700px;
@@ -13,11 +12,9 @@
     font-size: x-large ;
 }    
 
-
 html {
     height: 100%;
 }
-
 
 body {
     height: 100%;

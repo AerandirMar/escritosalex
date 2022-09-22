@@ -11,29 +11,37 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="contenedor">
-            
-            <div id="contenedor">
-
+        <div>
             <nav class="navbar navbar-expand-lg bg-gradient">
                 <div class="container-fluid">
-                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        <div class="navbar-nav mx-auto">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            <a class="nav-link active" aria-current="page" href="fragDeMi.html">Fragmentos de mí</a>
-                            <a class="nav-link active" href="amorODestino.html">Amor o destino</a>
-                            <a class="nav-link active" href="noSoloEsVivir.html">No solo es vivir</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="fragDeMi.html">Fragmentos de mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="amorODestino.html">Amor o destino</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="noSoloEsVivir.html">No solo es vivir</a>
+                            </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Comunidad
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Comunidad
                                 </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Crear cuenta</a></li>
-                                <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
-                                <li><a class="dropdown-item" href="#">Cambiar contraseña</a></li>
-                            </ul>
-                            </li>    
-                        </div>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+                                    <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+                                    <li><a class="dropdown-item" href="#">Cambiar contraseña</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
 
                     <a class="navbar-brand" href="#">
@@ -45,7 +53,13 @@
                     <img src="img/noSoloEsVivir.jpeg" class="card-img-top" alt="IMG No solo es vivir">
                     <div class="card-body">
                         <h5 class="card-title">No solo es vivir</h5>
-                        <p class="card-text">Hay cosas que no son fáciles de contar, por eso es que quiero llegar a esas almas atemorizadas, que callan, que sufren. Esta obra es para todas las personas que viven un secreto, las que cargan imágenes de dolor. No permitamos que estos seres llenos de maldad sigan ganando. Basta de hacerlos fuertes con nuestros silencios y miedos. Su mayor temor es nuestra voz.</p>
+                        <p class="card-text">Hay cosas que no son fáciles de contar, por eso es 
+                        que quiero llegar a esas almas atemorizadas, que callan, que sufren. 
+                        Esta obra es para todas las personas que viven un secreto, las que 
+                        cargan imágenes de dolor. No permitamos que estos seres llenos de 
+                        maldad sigan ganando. Basta de hacerlos fuertes con nuestros silencios 
+                        y miedos. Su mayor temor es nuestra voz.
+                        </p>
                         <a href="https://autoresdeargentina.com/no-solo-es-vivir-alexandra-cabrera/" target="_blank" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
