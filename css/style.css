@@ -5,11 +5,14 @@
 
 #contenedor{
     width: 80%;
-    height: 700px;
+    height: 300px;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Qwitcher Grypen', cursive;*/
-    font-size: x-large ;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    
 }    
 
 html {
@@ -25,4 +28,23 @@ body {
 .card{
     margin: auto;
     font-size: 15px;
+
+}
+
+
+#carouselExampleCaptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-center{
+    display: inline;
+}
+
+
+#apaisado{
+    margin-top: -15%;
+    background: linear-gradient(135deg, rgb(229, 218, 230) 23%, rgb(218, 34, 163) 100%); 
 }

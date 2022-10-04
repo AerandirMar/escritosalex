@@ -11,16 +11,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div>
+    <header>
+        <div id="contenedor">
             <nav class="navbar navbar-expand-lg bg-gradient">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="fragDeMi.html">Fragmentos de mi</a>
@@ -41,31 +42,41 @@
                                     <li><a class="dropdown-item" href="#">Cambiar contraseña</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contacto
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="https://instagram.com/alex85_books?igshid=YmMyMTA2M2Y=" target="_blank">instagram</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
-
-                    <a class="navbar-brand" href="#">
-                    <a href="https://instagram.com/alex85_books?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/instagram.png" alt="Link Insta Alexandra" width="30" height="" class="d-inline-block align-text-top"></a>
-                    </a>
                 </div>
             </nav>
-                <div class="card text-center" style="width: 20rem;">
-                    <img src="img/noSoloEsVivir.jpeg" class="card-img-top" alt="IMG No solo es vivir">
+            <br>
+            <br>
+        </div>
+    </header>
+    <main>
+        <div class="card mb-3" style="max-width: 540px;" id="apaisado">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img/noSoloEsVivir.jpeg" class="img-fluid rounded-start" alt="noSoloEsVivir">
+                </div>
+                <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">No solo es vivir</h5>
                         <p class="card-text">Hay cosas que no son fáciles de contar, por eso es 
-                        que quiero llegar a esas almas atemorizadas, que callan, que sufren. 
-                        Esta obra es para todas las personas que viven un secreto, las que 
-                        cargan imágenes de dolor. No permitamos que estos seres llenos de 
-                        maldad sigan ganando. Basta de hacerlos fuertes con nuestros silencios 
-                        y miedos. Su mayor temor es nuestra voz.
-                        </p>
-                        <a href="https://autoresdeargentina.com/no-solo-es-vivir-alexandra-cabrera/" target="_blank" class="btn btn-primary">Comprar</a>
+                            que quiero llegar a esas almas atemorizadas, que callan, que sufren. 
+                            Esta obra es para todas las personas que viven un secreto, las que 
+                            cargan imágenes de dolor. No permitamos que estos seres llenos de 
+                            maldad sigan ganando. Basta de hacerlos fuertes con nuestros silencios 
+                            y miedos. Su mayor temor es nuestra voz.</p>
                     </div>
                 </div>
             </div>
-            
-            
         </div>
+    </main>
     </body>
 </html>
